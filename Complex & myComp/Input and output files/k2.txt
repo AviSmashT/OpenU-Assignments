@@ -1,0 +1,18 @@
+read_comp G,3.1,6
+read_comp a,3.1,6
+blabla a,3.1,6
+read_comp B, 3, bla
+read_comp D, 99,
+read_comp D,86,6 ,
+add_comp C
+print_comp D , F
+add_comp B,,A
+mult_comp_real A 5
+PRINT_COMP A
+sub_comp , A,B
+mult_comp_img A , B
+abs_comp 
+print_comp 
+abs_comp 500
+stop A
+

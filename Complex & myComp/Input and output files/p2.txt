@@ -1,0 +1,103 @@
+
+ **Welcome to complex number calculator program**
+
+you can use this program to calculate complex numbers
+
+List of available commands:
+
+  (1) read_comp - Change value for complex number
+  (2) print_comp - Print complex number
+  (3) add_comp - Add two complex numbers
+  (4) sub_comp - subtract two complex numbers
+  (5) mult_comp_real - Multiple complex numbers with real number
+  (6) mult_comp_img - Multiple complex numbers with imaginary number
+  (7) mult_comp_comp - Multiple two complex numbers
+  (8) abs_comp - Print get absolute value of complex number
+  (9) stop - Stop this program
+
+List of available complex nubmber variables you can use:
+A, B, C, D, E, F 
+
+The complex number (a + bi) is consist of real part (a) and imaginary part (bi)
+
+NOTE: this program is case sensitive
+Example for input format:
+  (1)|read_comp A, 5.5, 6|
+  (2)|add_comp A , B|
+  (3)|abs_comp    A|
+There should be comma between every two paramaters, spaces are allowed freely as long as the format is considered
+Comma between the command and paramater is not allowd, and extraneous text after end of command as well
+
+Please enter a command:
+read_comp G,3.1,6
+Undefined complex variable
+
+Please enter a command:
+read_comp a,3.1,6
+Undefined complex variable
+
+Please enter a command:
+blabla a,3.1,6
+Undefined command name
+
+Please enter a command:
+read_comp B, 3, bla
+Invalid parameter - Not a number
+
+Please enter a command:
+read_comp D, 99,
+Missing paramater
+
+Please enter a command:
+read_comp D,86,6 ,
+Extraneous text after end of command
+
+Please enter a command:
+add_comp C
+Missing paramater
+
+Please enter a command:
+print_comp D , F
+Extraneous text after end of command
+
+Please enter a command:
+add_comp B,,A
+Multiple consecuitive commas
+
+Please enter a command:
+mult_comp_real A 5
+Missing comma
+
+Please enter a command:
+PRINT_COMP A
+Undefined command name
+
+Please enter a command:
+sub_comp , A,B
+Illegal comma
+
+Please enter a command:
+mult_comp_img A , B
+Invalid parameter - Not a number
+
+Please enter a command:
+abs_comp 
+Missing paramater
+
+Please enter a command:
+print_comp 
+Missing paramater
+
+Please enter a command:
+abs_comp 500
+Undefined complex variable
+
+Please enter a command:
+stop A
+Extraneous text after end of command
+
+Please enter a command:
+
+Please enter a command:
+
+ERORR: Input reached end of file before recived a command to stop this program

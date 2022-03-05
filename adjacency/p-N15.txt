@@ -1,0 +1,158 @@
+
+This program recevie a tree matrix. The matrix will be printed and then checks if there is a path from node u to node v.
+The number of nodes in this tree is 15 (0-14). You need to insert 225 values (0 or 1).
+Make sure there is space between the values. 
+You can press enter after every value input or every line input of the matrix. 
+Now please enter the matrix values:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  
+
+0    0  0  0  0  0  0  0  0  0  0   1   0   0   0   0 
+1    0  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+2    0  0  0  0  1  1  0  0  0  0   0   0   0   0   0 
+3    1  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+4    0  0  0  0  0  0  0  0  0  1   0   0   0   0   0 
+5    0  1  0  0  0  0  0  1  1  0   0   0   0   0   0 
+6    0  0  1  1  0  0  0  0  0  0   0   0   0   0   0 
+7    0  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+8    0  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+9    0  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+10   0  0  0  0  0  0  0  0  0  0   0   1   1   0   0 
+11   0  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+12   0  0  0  0  0  0  0  0  0  0   0   0   0   1   1 
+13   0  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+14   0  0  0  0  0  0  0  0  0  0   0   0   0   0   0 
+
+
+To check if there is a path between node u to node v 
+Please enter the value of u first and then the value of v
+You can press enter after every input or insert the two values in the same line (make sure there is space between the values) 
+To quit enter the values '-1' and -1' 
+
+There is a path from 2 to 1
+
+Next input: 
+There is a path from 6 to 11
+
+Next input: 
+There is a path from 6 to 12
+
+Next input: 
+There is a path from 6 to 10
+
+Next input: 
+There isn't a path from 11 to 2
+
+Next input: 
+There isn't a path from 12 to 0
+
+Next input: 
+There isn't a path from 9 to 0
+
+Next input: 
+There isn't a path from 1 to 8
+
+Next input: 
+There isn't a path from 7 to 6
+
+Next input: 
+There is a path from 3 to 12
+
+Next input: 
+There is a path from 3 to 11
+
+Next input: 
+There is a path from 0 to 10
+
+Next input: 
+There is a path from 2 to 9
+
+Next input: 
+There is a path from 2 to 7
+
+Next input: 
+There is a path from 4 to 9
+
+Next input: 
+There is a path from 5 to 1
+
+Next input: 
+There is a path from 2 to 1
+
+Next input: 
+There isn't a path from 5 to 2
+
+Next input: 
+Invalid paramaters
+There isn't a path from 100 to 4
+
+Next input: 
+Invalid paramaters
+There isn't a path from 104 to 106
+
+Next input: 
+Invalid paramaters
+There isn't a path from -500 to -46
+
+Next input: 
+Invalid paramaters
+There isn't a path from -2 to -3
+
+Next input: 
+There is a path from 12 to 14
+
+Next input: 
+There is a path from 10 to 13
+
+Next input: 
+There isn't a path from 11 to 13
+
+Next input: 
+There is a path from 0 to 14
+
+Next input: 
+There isn't a path from 13 to 14
+
+Next input: 
+There isn't a path from 13 to 8
+
+Next input: 
+There isn't a path from 14 to 6
+
+Next input: 
+There is a path from 0 to 0
+
+Next input: 
+Invalid paramaters
+There isn't a path from 100 to 100
+
+Next input: 
+There is a path from 2 to 2
+
+Next input: 
+There is a path from 1 to 1
+
+Next input: 
+There isn't a path from 1 to 0
+
+Next input: 
+There isn't a path from 0 to 1
+
+Next input: 
+There isn't a path from 5 to 4
+
+Next input: 
+Program ended

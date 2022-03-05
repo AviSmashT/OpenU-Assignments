@@ -1,0 +1,20 @@
+make heap
+insert 1
+insert 3
+insert 5
+insert 4
+insert 2
+insert 10
+print
+Union
+Make heap
+insert 999
+insert 888
+insert 13
+insert 2
+insert 888
+insert 13
+print
+Union
+print
+exit
